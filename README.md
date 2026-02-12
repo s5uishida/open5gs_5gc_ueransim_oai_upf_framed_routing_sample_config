@@ -673,7 +673,7 @@ sleep 2
 
 ### Run OAI-CN5G-UPF
 
-See [this](https://github.com/s5uishida/install_oai_upf#run).  
+See [this](https://github.com/s5uishida/install_oai_upf#run).
 **Don't forget [Network settings of OAI-CN5G-UPF](#network_settings_up).**
 
 <a id="run_ueran"></a>
