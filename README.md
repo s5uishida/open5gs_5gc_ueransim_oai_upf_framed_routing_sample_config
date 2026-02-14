@@ -229,7 +229,7 @@ Please refer to the following for building Open5GS, OAI-CN5G-UPF and UERANSIM re
 ### Changes in configuration files of OAI-CN5G-UPF
 
 See [here](https://github.com/s5uishida/install_oai_upf#conf) for the original file.
-And change this `config.yaml` to apply [Simple Switch mode](https://github.com/s5uishida/install_oai_upf#af_conf) and [Framed Routing](https://github.com/s5uishida/install_oai_upf#fr).
+And change this `config.yaml` to apply [Simple Switch mode](https://github.com/s5uishida/install_oai_upf#ss_conf) and [Framed Routing](https://github.com/s5uishida/install_oai_upf#fr).
 
 <a id="changes_ueransim"></a>
 
