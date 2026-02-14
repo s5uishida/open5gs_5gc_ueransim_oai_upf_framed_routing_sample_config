@@ -1,4 +1,4 @@
-# Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - Framed Routing with OAI-CN5G-UPF(AF_PACKET)
+# Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - Framed Routing with OAI-CN5G-UPF(Simple Switch)
 This describes a very simple configuration that uses Open5GS, OAI-CN5G-UPF and UERANSIM for Framed Routing.
 
 This feature has been merged into Open5GS via the following pull requests by **@mitmitmitm**.
@@ -229,7 +229,7 @@ Please refer to the following for building Open5GS, OAI-CN5G-UPF and UERANSIM re
 ### Changes in configuration files of OAI-CN5G-UPF
 
 See [here](https://github.com/s5uishida/install_oai_upf#conf) for the original file.
-And change this `config.yaml` to apply [AF_PACKET mode](https://github.com/s5uishida/install_oai_upf#af_conf) and [Framed Routing](https://github.com/s5uishida/install_oai_upf#fr).
+And change this `config.yaml` to apply [Simple Switch mode](https://github.com/s5uishida/install_oai_upf#af_conf) and [Framed Routing](https://github.com/s5uishida/install_oai_upf#fr).
 
 <a id="changes_ueransim"></a>
 
