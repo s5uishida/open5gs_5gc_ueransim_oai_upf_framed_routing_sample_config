@@ -177,8 +177,17 @@ Please refer to the following for building Open5GS, OAI-CN5G-UPF and UERANSIM re
 - `open5gs/install/etc/open5gs/smf.yaml`
 ```diff
 --- smf.yaml.orig       2025-01-15 04:12:06.000000000 +0900
-+++ smf.yaml    2025-01-15 04:26:36.000000000 +0900
-@@ -20,16 +20,14 @@
++++ smf.yaml    2025-01-15 04:26:52.000000000 +0900
+@@ -7,6 +7,8 @@
+   max:
+     ue: 1024  # The number of UE can be increased depending on memory size.
+ #    peer: 64
++  parameter:
++    use_upg_vpp: true
+ 
+ smf:
+   sbi:
+@@ -20,16 +22,14 @@
          - uri: http://127.0.0.200:7777
    pfcp:
      server:
@@ -199,7 +208,7 @@ Please refer to the following for building Open5GS, OAI-CN5G-UPF and UERANSIM re
    metrics:
      server:
        - address: 127.0.0.4
-@@ -37,20 +35,17 @@
+@@ -37,20 +37,17 @@
    session:
      - subnet: 10.45.0.0/16
        gateway: 10.45.0.1
