@@ -1302,6 +1302,6 @@ I would like to thank the excellent developers and all the contributors of Open5
 
 ## Changelog (summary)
 
-- [2026.09.16] Updated to Open5GS v2.8.0 (2024.09.16).
+- [2026.09.16] Updated to Open5GS v2.8.0 (2026.09.16).
 - [2026.04.25] Changed to the method that uses network namespaces for UERANSIM gNodeB and UE.
 - [2026.02.11] Initial release.
