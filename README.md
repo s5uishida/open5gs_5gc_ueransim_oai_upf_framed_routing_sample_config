@@ -1,5 +1,6 @@
 # Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - Framed Routing with OAI-CN5G-UPF
 This describes a very simple configuration that uses Open5GS, OAI-CN5G-UPF and UERANSIM for Framed Routing.
+I conducted a brief operational verification of Framed Routing on eBPF/XDP-based OAI-CN5G-UPF. However, it also functions in Simple Switch mode.
 
 This feature has been merged into Open5GS via the following pull requests by **@mitmitmitm**.
 
