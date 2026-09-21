@@ -79,7 +79,7 @@ The following figure shows the netns and veth pairs within VM3.
 
 The 5GC / UE / RAN used are as follows.
 - 5GC - Open5GS v2.8.0 (2026.09.19) - https://github.com/open5gs/open5gs
-- UPF - OAI-CN5G-UPF v2.2.1 (2026.09.09) - https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-upf
+- UPF - OAI-CN5G-UPF v2.2.1 (2026.09.09) - https://github.com/openairinterface/oai-cn5g-upf
 - UE / RAN - UERANSIM v3.3.0 (2026.09.06) - https://github.com/aligungr/UERANSIM
 
 Each VMs are as follows.  
