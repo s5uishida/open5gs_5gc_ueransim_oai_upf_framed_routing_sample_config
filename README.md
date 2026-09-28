@@ -369,7 +369,7 @@ Next, edit `open5gs-ue1.yaml`.
 ### Network settings of OAI-CN5G-UPF
 
 First, see [this](https://github.com/s5uishida/install_oai_upf#setup_up).  
-In addition, for Simple Switch mode, configure the routing to the Framed Routes for the TUNnel interface.
+In addition, for Simple Switch mode, enable the routing function as [here](https://github.com/s5uishida/install_oai_upf#network_settings), and configure the routing to the Framed Routes for the TUNnel interface.
 ```
 ip route add 192.168.20.0/24 dev tun0
 ip route add 192.168.21.0/24 dev tun0
